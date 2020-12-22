@@ -6,12 +6,12 @@ import javafx.stage.Stage;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage stage) throws Exception{
 
-        Controller.show(primaryStage);
+        Controller.show(stage);
     }
 
     public static void main(String[] args) {
-        launch(args);
+        Application.launch(args);
     }
 }
